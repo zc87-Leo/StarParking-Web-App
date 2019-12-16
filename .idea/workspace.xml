@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0a6c7da-290d-46d1-8c26-0032be6f6b52" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U5UMXWuwqd3SitmtFDR88IuWU8" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/zc/parking/po" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/admin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/error" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zc.parking.aspect" />
+      <recent name="com.zc.parking" />
+      <recent name="com.zc.parking.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/admin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/error" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ParkingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="parking" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zc.parking.ParkingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0a6c7da-290d-46d1-8c26-0032be6f6b52" name="Default Changelist" comment="" />
+      <created>1574645901016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574645901016</updated>
+      <workItem from="1574645905050" duration="1518000" />
+      <workItem from="1574650821351" duration="1287000" />
+      <workItem from="1574690025715" duration="51000" />
+      <workItem from="1574690089993" duration="66000" />
+      <workItem from="1574690262985" duration="3000" />
+      <workItem from="1574690324726" duration="191000" />
+      <workItem from="1574691794432" duration="31000" />
+      <workItem from="1574696148965" duration="16779000" />
+      <workItem from="1574815689949" duration="24232000" />
+      <workItem from="1575044577559" duration="293000" />
+      <workItem from="1575045296104" duration="74893000" />
+      <workItem from="1575487429359" duration="35000" />
+      <workItem from="1575487659710" duration="1233000" />
+      <workItem from="1575496316810" duration="157000" />
+      <workItem from="1575496648447" duration="656000" />
+      <workItem from="1575552160288" duration="8879000" />
+      <workItem from="1575588916031" duration="500000" />
+      <workItem from="1575670298877" duration="711000" />
+      <workItem from="1575738547757" duration="194000" />
+      <workItem from="1575760289376" duration="227000" />
+      <workItem from="1575775895077" duration="4179000" />
+      <workItem from="1575819284663" duration="9330000" />
+      <workItem from="1575846345622" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zc/parking/web/IndexController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zc/parking/web/admin/CommentController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+2019-11-25 18:50:16.287  INFO 2416 --- [restartedMain] com.zc.parking.ParkingApplication        : Starting ParkingApplication on zhangchengdeMacBook-Pro.local with PID 2416 (/Users/zhangcheng/DBProject/parking/target/classes started by zhangcheng in /Users/zhangcheng/DBProject/parking)
+2019-11-25 18:50:16.287  INFO 2416 --- [restartedMain] com.zc.parking.ParkingApplication        : The following profiles are active: pro
+2019-11-25 18:50:16.741  WARN 2416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-25 18:50:16.786  INFO 2416 --- [restartedMain] com.zc.parking.ParkingApplication        : Started ParkingApplication in 0.527 seconds (JVM running for 621.799)

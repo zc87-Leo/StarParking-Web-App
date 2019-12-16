@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">
+    <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
+    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
+</head>
+<body>
+<!--导航-->
+<nav  class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary  stackable menu">
+            <h1 class="ui pink header">Star🌟Parking</h1>
+
+            <div class="right m-item menu m-mobile-hide">
+                <div class="ui dropdown item">
+                    <div class="text">
+                        <img src="https://unsplash.it/800/450?image=1050" th:src="@{${session.user.avatar}}"  class="ui avatar image">
+                        <span th:text="${session.user.username}">ZzzccccC</span>
+                    </div>
+                    <i class="dropdown icon"> </i>
+                    <div class="menu">
+                        <a href="#" th:href="@{/admin/logout}" class="item">logout</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="ui menu toggle black icon button m-mobile-show m-right-top">
+                <i class="sidebar icon"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+<!--中间内容-->
+<div class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+        <div class="ui success large message">
+            <h2>Welcome, <span th:text="${session.user.username}">ZzzccccC</span> ！</h2>
+            <h3>Please enter the location you want to park the car. 😊</h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="#" method="post" th:action="@{/admin/query}" class="ui huge form">
+                <div class="big field">
+                    <label>Your location:</label>
+                    <div class="ui icon input">
+                        <i class="search icon"></i>
+                    <input placeholder="e.g. the street name."  name="street" type="text">
+                </div>
+                    </div>
+            <button type="submit"  class="ui pink huge submit button"><i class="car icon"></i> List all nearby parking slots!</button>
+        </form>
+    </div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--底部footer-->
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">Team Member</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Cheng Zhang</a>
+                    <a href="#" class="item">Qiulin He</a>
+                    <a href="#" class="item">Xuanhao Zhang</a>
+                    <a href="#" class="item">Qianjin Wu</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">Contact Us</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email:zhangcheng960807@163.com</a>
+                    <a href="#" class="item">QQ:980244809</a>
+                </div>
+            </div>
+            <div class="five wide column">
+                <p> We promise to give you the best parking experience in Star Town 🌟 ！</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">Copyright © 2019 - 2020 StarParking Designed by Database Team 🇨🇳</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
+<script src="../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
+<script src="../static/lib/qrcode/qrcode.min.js" th:src="@{/lib/qrcode/qrcode.min.js}"></script>
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    })
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    });
+</script>
+
+</body>
+</html>
