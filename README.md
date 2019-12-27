@@ -5,4 +5,27 @@ Parking situation is stressful nowadays for many cities, so our goal is to build
 
 ## System Architecture Model Design
 
-![image](https://github.com/Desktop/图片\ 1.png)
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%201.png)
+
+## Database Design & Data Acquisition
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%202.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片10.png)
+
+## Interface Preview
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%204.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%205.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%206.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%207.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%208.png)
+
+![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/图片%209.png)
+
+
+
+
